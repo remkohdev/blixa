@@ -1,0 +1,21 @@
+task_description: "Teach the model about how Blixa spent April 20, 2024"
+created_by: Remko de Knikker
+domain: Blixa de Knikker
+seed_examples:
+- answer: "aaaBlixa went to Columbia University from 9:30am to 12pm for his Mandarin class."
+  question: "aaaWhat activities did Blixa do in the morning of April 20, 2024?"
+- answer: "aaaBlixa went to The Strand bookstore on West 82nd Street to read a few books with papa and mama."
+  question: "aaaWhat activities did Blixa do in the afternoon of April 20, 2024?"
+- answer: "aaaBlixa ate a multi-grain toast with avocado and egg white, orange parts and a cup of chocolate milk."
+  question: "aaaWhat did Blixa eat for breakfast on Saturday, April 20, 2024?"
+- answer: "Blixa went to Columbia University from 9:30am to 12pm for his Mandarin class."
+  question: "What activities did Blixa do in the morning of April 20, 2024?"
+- answer: "Blixa went to The Strand bookstore on West 82nd Street to read a few books with papa and mama."
+  question: "What activities did Blixa do in the afternoon of April 20, 2024?"
+- answer: "Blixa ate a multi-grain toast with avocado and egg white, orange parts and a cup of chocolate milk."
+  question: "What did Blixa eat for breakfast on Saturday, April 20, 2024?"
+document:
+  repo: https://github.com/remkohdev/blixa
+  commit: <commit-hash-to-use>
+  patterns:
+  - <file-search-patter 1>
